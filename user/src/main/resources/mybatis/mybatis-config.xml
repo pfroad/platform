@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- Type alias -->
+    <typeAliases>
+		<typeAlias type="com.qmall.platform.model.User" alias="user"/>
+    </typeAliases>
+
+    <!-- Data Source
+    <environments default="">
+        <environment id="">
+            <transactionManager type=""></transactionManager>
+            <dataSource type=""></dataSource>
+        </environment>
+    </environments>
+    -->
+
+
+</configuration>
